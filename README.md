@@ -33,7 +33,7 @@ HarmonyHive is a pioneering platform enabling individuals and organizations to d
 
 ### 4. Order Management and Tracking: 
 - Live tracking of donation orders ensures transparency and accountability, from donor selection to distribution by NGOs.
-<img width="754" alt="image" src="https://github.com/Avtech04/tempppp/assets/97428742/4ce74292-d370-4743-b39a-2befb014d21f">
+<img width="932" alt="image" src="https://github.com/Avtech04/tempppp/assets/97428742/4ce74292-d370-4743-b39a-2befb014d21f">
 
 
 ### 5. Admin Panel:

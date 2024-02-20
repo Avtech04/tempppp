@@ -81,49 +81,44 @@ To get started with the Real-Time Drawing and Guessing Web App, follow these ste
 
 1. Clone the repository.
 ```bash
-  git clone [https://link-to-project](https://github.com/samjain233/doodle)
+  git clone https://github.com/Avtech04/GDSC.git
 ```
 
 
 2. Go to the project directory
 
 ```bash
-  cd doodle
+  cd GDSC
 ```
 
+3. Go to the frontend project directory
+   
+```bash
+  cd solution
+```
 
-3. Install dependencies
+4. Install dependencies
 
 ```bash
   npm install
 ```
-4. Creating .env file
+
+5. Creating .env file
 ```node
-NEXT_PUBLIC_SERVER=http://localhost:5000 //backend Server
-NEXT_PUBLIC_CLIENT=http://localhost:3000 //frontend Server
 
-NEXTAUTH_SECRET=kjefe**********************************888 //random string
-NEXTAUTH_URL=http://localhost:3000 //frontend Sever
-NEXTAUTH_URL_INTERNAL=http://localhost:3000 //frontend Server
+REACT_APP_MAP_KEY=  // mapbox api key (link: https://www.mapbox.com/)
 
-GOOGLE_ID= //google id for goolge auth
-GOOGLE_CLIENT_SECRET= //google client secret
-
-DISCORD_CLIENT_ID= //discord id for discord auth
-DISCORD_CLIENT_SECRET= //discord id for discord auth
-
-GITHUB_ID= //github id for github auth
-GITHUB_SECRET= //github id for github auth
 ```
 6. Start the server in development mode
 
 ```bash
-  npm run dev
+  npm start
 ```
-7. Go to the backend proeject directory
-   
+
+7. From main folder GDSC go to backend directory (in another terminal)
+
 ```bash
-  cd socketBackend
+  cd server
 ```
 
 8. Install dependencies
@@ -134,22 +129,15 @@ GITHUB_SECRET= //github id for github auth
 
 9. Creating .env file
 ```node
-MONGO_CONN=mongodb+srv://yourUsername:yourpassword@cluster0.****.mongodb.net/dbName
+
+ClientId= //google id for goolge auth
+ClientSecret= //google client secret
 ```
 
-10. Start the socket server
+10. Connect to MongoDB By changing the file server/db/conn.js as per convinence
+
+11. Start the backend server
 ```bash
-  node websocket.js
+  nodemon app.js
 ```
 
-## Deployment
-
-- *Socket Server (AWS):* The socket server is deployed on AWS to handle real-time communication.
-
-- *Next.js Server (Vercel):* The Next.js server is deployed on Vercel. The live project is accessible at [https://marsdoodle.vercel.app/](https://marsdoodle.vercel.app/).
-
-## Contributing
-
-We welcome contributions to improve and expand the features of this web app. If you have any ideas or want to report issues, feel free to create a pull request or submit an issue in the repository.
-
-Enjoy the drawing and guessing experience with our Real-Time Drawing and Guessing Web App!

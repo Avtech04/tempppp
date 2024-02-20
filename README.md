@@ -1,27 +1,22 @@
-# MARS DOODLE
-![image](https://github.com/samjain233/doodle/assets/94921996/8fbdb11a-78b4-4665-b65d-b1e6f09b3028)
+# HarmonyHive
+<img width="632" alt="image" src="https://github.com/Avtech04/tempppp/assets/97428742/52b28889-ad3c-4128-bc6b-9a8b61aa0496">
 
-Welcome to our Real-Time Drawing and Guessing Web App Game! This project, built with Next.js, Node.js, Socket.io, and MongoDB, provides an interactive and engaging experience for users who love to draw and guess in real-time. With a range of features, including multiplayer support, chat functionality, and advanced drawing tools, this web app aims to create a fun and dynamic environment for players.
 
-## Tech Stacks
+HarmonyHive is a pioneering platform enabling individuals and organizations to donate excess food seamlessly, fostering sustainable consumption and aiding in natural and human disasters worldwide. Through intuitive interfaces, users can contribute via Google Pay, while NGOs facilitate distribution to those in need, ensuring efficient and transparent relief efforts. With real-time tracking and admin authentication, HarmonyHive stands at the forefront of compassionate and effective humanitarian initiatives.
 
-- [Next.js](https://nextjs.org/): A React framework for building server-rendered and statically generated web applications.
+## Technologies and Product Used
+
+- [Google Pay](https://nextjs.org/): Used Google Pay to ensure seamless and secure Payment.
+
+- [Google Translate](https://nextjs.org/): Used Google Translate to ensure multi lingual facility.
+
+- [Map Box Api](https://nextjs.org/): Used Map box api to ensure visual representation of map and routes.
 
 - [Node.js](https://nodejs.org/): A JavaScript runtime built on Chrome's V8 JavaScript engine.
 
 - [Socket.io](https://socket.io/): A library for real-time web applications. It enables real-time, bidirectional, and event-based communication.
 
 - [MongoDB](https://www.mongodb.com/): A NoSQL database for storing and managing data.
-
-## Dependencies
-
-- [@dicebear/collection](https://www.npmjs.com/package/@dicebear/collection): A library for generating avatars.
-- [next-auth](https://next-auth.js.org/): Authentication for Next.js applications.
-- [randomstring](https://www.npmjs.com/package/randomstring): A library for generating random strings.
-- [react-hot-toast](https://react-hot-toast.com/): A React toast notification library.
-- [react-icons](https://react-icons.github.io/react-icons/): A library of icons for React applications.
-- [react-loader-spinner](https://www.npmjs.com/package/react-loader-spinner): A React component for providing loading spinners.
-- [roughjs](https://roughjs.com/): A library for creating hand-drawn-like graphics.
 
 ## Features
 

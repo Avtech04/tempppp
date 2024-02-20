@@ -1,16 +1,16 @@
 # HarmonyHive
-<img width="632" alt="image" src="https://github.com/Avtech04/tempppp/assets/97428742/52b28889-ad3c-4128-bc6b-9a8b61aa0496">
+<img width="1232" alt="image" src="https://github.com/Avtech04/tempppp/assets/97428742/52b28889-ad3c-4128-bc6b-9a8b61aa0496">
 
 
 HarmonyHive is a pioneering platform enabling individuals and organizations to donate excess food seamlessly, fostering sustainable consumption and aiding in natural and human disasters worldwide. Through intuitive interfaces, users can contribute via Google Pay, while NGOs facilitate distribution to those in need, ensuring efficient and transparent relief efforts. With real-time tracking and admin authentication, HarmonyHive stands at the forefront of compassionate and effective humanitarian initiatives.
 
 ## Technologies and Product Used
 
-- [Google Pay](https://nextjs.org/): Used Google Pay to ensure seamless and secure Payment.
+- [Google Pay](https://developers.google.com/pay/india/api/web/intro): Used Google Pay to ensure seamless and secure Payment.
 
-- [Google Translate](https://nextjs.org/): Used Google Translate to ensure multi lingual facility.
+- [Google Translate](https://translate.google.co.in/): Used Google Translate to ensure multi lingual facility.
 
-- [Map Box Api](https://nextjs.org/): Used Map box api to ensure visual representation of map and routes.
+- [Map Box Api](https://www.mapbox.com/): Used Map box api to ensure visual representation of map and routes.
 
 - [Node.js](https://nodejs.org/): A JavaScript runtime built on Chrome's V8 JavaScript engine.
 
@@ -20,55 +20,31 @@ HarmonyHive is a pioneering platform enabling individuals and organizations to d
 
 ## Features
 
-### 1. Multiplayer Drawing and Guessing
-![image](https://github.com/samjain233/doodle/assets/94921996/1c098b7e-e2f3-4c3c-a62d-f89ab0da6d0c)
+### 1. Disaster Donation Portal:
+-  Users receive concise information on ongoing disasters and can donate conveniently via Google Pay.
+<img width="943" alt="image" src="https://github.com/Avtech04/tempppp/assets/97428742/5f7c9ed3-33fa-4e6c-990c-cde48e997805">
+<img width="943" alt="image" src="https://github.com/Avtech04/tempppp/assets/97428742/a21b4540-0c7b-4f19-a40e-4b77c9d59af2">
 
-- Experience real-time drawing and guessing with friends or other players.
-- One player draws a word while others try to guess it.
+### 2. NGO Coordination
+- Non-governmental organizations (NGOs) act as intermediaries, adding locations where they can reach those in need and facilitating food distribution.
+<img width="937" alt="image" src="https://github.com/Avtech04/tempppp/assets/97428742/9859df12-57f9-4836-bb62-d897802551b4">
+<img width="937" alt="image" src="https://github.com/Avtech04/tempppp/assets/97428742/0416af90-c184-491f-aa26-dda82efe967c">
 
-### 2. Multiplayer Support
-- Enjoy multiplayer functionality, allowing users to join public rooms or create private ones.
-- Invite friends using unique links for a seamless gaming experience.
 
-### 3. In-Game Chat
-- Communicate with other players through an in-game chat feature.
-- Enhance the gaming experience with real-time conversations.
+### 4. Order Management and Tracking: 
+- Live tracking of donation orders ensures transparency and accountability, from donor selection to distribution by NGOs.
+<img width="754" alt="image" src="https://github.com/Avtech04/tempppp/assets/97428742/4ce74292-d370-4743-b39a-2befb014d21f">
 
-### 4. User Authentication and Profile Management
-![image](https://github.com/samjain233/doodle/assets/94921996/9a20ed34-e243-42c6-8789-808b905e0b2e)
 
-- Create personalized profiles and track your game history.
-- User can be authenticated using google, discord and github.
+### 5. Admin Panel:
+- An admin panel authenticates NGOs and provides real-time updates on ongoing natural disasters, ensuring reliable information for users and efficient coordination of relief efforts.
 
-### 5. Drawing Tools
-![image](https://github.com/samjain233/doodle/assets/94921996/24cad121-e2da-4e24-a76c-5116107d7958)
+<img width="932" alt="image" src="https://github.com/Avtech04/tempppp/assets/97428742/ec300035-991e-4386-a161-842d7fd02e35">
 
-- Choose from different pen colors and brush sizes.
-- Utilize features like eraser, bucket fill, and color picker.
+### 6. Google Translator Integration: 
+- The platform integrates Google Translator, allowing seamless communication between donors, NGOs, and recipients of aid who speak different languages.
+<img width="938" alt="image" src="https://github.com/Avtech04/tempppp/assets/97428742/91d02466-7a06-4677-9e8e-6e3fed612b69">
 
-### 6. Save Current Drawing
-- Save your masterpiece at any point during the drawing session.
-
-### 7. Room Administration
-![image](https://github.com/samjain233/doodle/assets/94921996/18fcdf6c-b06a-4eef-8208-492d53498ba7)
-
-- Assign a user as the room admin with the power to kick users and make others admins.
-- Chat restrict a user without kicking them for better moderation.
-
-### 8. Undo and Redo
-![image](https://github.com/samjain233/doodle/assets/94921996/8040ac1d-b7da-4a8e-b743-25cc1036c731)
-
-- Enjoy the flexibility of undoing and redoing recent drawing operations.
-
-### 9. Profanity Filter
-![image](https://github.com/samjain233/doodle/assets/94921996/cde02f16-cd81-43cd-b6fe-4f1508b8d421)
-
-- Maintain a friendly environment with a profanity filter in the chat.
-
-### 10. Drawing Shapes
-![image](https://github.com/samjain233/doodle/assets/94921996/36990f94-bef5-4ad8-a39c-13a3a909e288)
-
-- Explore creativity with the ability to draw various shapes, including circle, square, rectangle, ellipse, free draw, and lines.
 
 ## Getting Started
 
